@@ -1,0 +1,1101 @@
+[
+  {
+    "id": "agr-0031",
+    "envelopeId": "env-92f1d3ba061d",
+    "accountId": "acct-fabrikam",
+    "accountName": "Fabrikam Inc",
+    "title": "Software Development Statement of Work Q1 2024",
+    "type": "SOW",
+    "status": "completed",
+    "createdDate": "2024-02-15",
+    "lastUpdated": "2024-03-01",
+    "expirationDate": "2024-12-31",
+    "folderId": "folder-completed",
+    "folderType": "Completed",
+    "sender": "pm@fabrikamsoftware.com",
+    "recipients": [
+      "clientit@contosocorp.com"
+    ],
+    "tags": [
+      "software",
+      "development",
+      "project"
+    ],
+    "content": "This Statement of Work outlines the deliverables and timelines for the software development project targeting Q1 2024. It details the scope for feature implementation, testing phases, and deployment schedules. Both parties agree upon the resource allocation and communication protocols to ensure smooth project execution.",
+    "clauses": [
+      {
+        "clauseType": "Service Level",
+        "text": "The vendor shall maintain a 99.5% uptime for all delivered services during the project timeframe."
+      },
+      {
+        "clauseType": "Termination",
+        "text": "Either party may terminate the agreement with 30 days written notice if material breaches are not remedied."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "Contract Value",
+        "value": "$250,000"
+      },
+      {
+        "name": "Project Phase",
+        "value": "Development"
+      }
+    ]
+  },
+  {
+    "id": "agr-0032",
+    "envelopeId": "env-346f43a7bf3e",
+    "accountId": "acct-contoso",
+    "accountName": "Contoso Ltd",
+    "title": "Non-Disclosure Agreement for Strategic Partnership",
+    "type": "NDA",
+    "status": "sent",
+    "createdDate": "2024-05-10",
+    "lastUpdated": "2024-05-12",
+    "expirationDate": "2025-05-10",
+    "folderId": "folder-sent",
+    "folderType": "Sent",
+    "sender": "legal@contosocorp.com",
+    "recipients": [
+      "partner@adatuminc.com"
+    ],
+    "tags": [
+      "nda",
+      "confidentiality",
+      "partnership"
+    ],
+    "content": "This NDA establishes confidentiality obligations between Contoso and Adatum for discussions related to a potential strategic partnership. Both parties agree to protect proprietary information and restrict disclosures to authorized personnel only during negotiations.",
+    "clauses": [
+      {
+        "clauseType": "Confidentiality",
+        "text": "All shared confidential information must be handled with strict confidentiality and may only be used for the purposes set forth in this agreement."
+      },
+      {
+        "clauseType": "Governing Law",
+        "text": "This agreement shall be governed by the laws of the State of Washington."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "Region",
+        "value": "North America"
+      },
+      {
+        "name": "Purpose",
+        "value": "Strategic Partnership"
+      }
+    ]
+  },
+  {
+    "id": "agr-0033",
+    "envelopeId": "env-2a4b01b4fe62",
+    "accountId": "acct-adatum",
+    "accountName": "Adatum Corp",
+    "title": "Data Privacy Addendum for Vendor Services",
+    "type": "DPA",
+    "status": "delivered",
+    "createdDate": "2025-01-20",
+    "lastUpdated": "2025-02-05",
+    "expirationDate": "2026-01-20",
+    "folderId": "folder-inbox",
+    "folderType": "Inbox",
+    "sender": "privacy@adatuminc.com",
+    "recipients": [
+      "compliance@fabrikamsoftware.com",
+      "security@fabrikamsoftware.com"
+    ],
+    "tags": [
+      "data",
+      "privacy",
+      "compliance"
+    ],
+    "content": "This Data Processing Addendum governs how Adatum, as the data controller, and Fabrikam, as the data processor, will handle personal data according to applicable data protection regulations. It defines obligations related to data security, breach notification, and data subject rights.",
+    "clauses": [
+      {
+        "clauseType": "Data Protection",
+        "text": "The processor shall implement technical and organizational measures to ensure data security in line with GDPR standards."
+      },
+      {
+        "clauseType": "Termination",
+        "text": "Upon termination, all personal data must be deleted or returned to the controller within 30 days."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "Compliance Standard",
+        "value": "GDPR"
+      },
+      {
+        "name": "Contract Duration",
+        "value": "12 months"
+      }
+    ]
+  },
+  {
+    "id": "agr-0034",
+    "envelopeId": "env-d4f20bc14970",
+    "accountId": "acct-northwind",
+    "accountName": "Northwind Traders",
+    "title": "Renewal Notice for Cloud Hosting Services",
+    "type": "RenewalNotice",
+    "status": "completed",
+    "createdDate": "2026-04-10",
+    "lastUpdated": "2026-04-15",
+    "expirationDate": "2027-04-10",
+    "folderId": "folder-completed",
+    "folderType": "Completed",
+    "sender": "accounts@northwindcloud.com",
+    "recipients": [
+      "billing@contosocorp.com"
+    ],
+    "tags": [
+      "renewal",
+      "cloud",
+      "hosting"
+    ],
+    "content": "This notice confirms the upcoming renewal of cloud hosting services for Contoso. Terms remain consistent with the prior agreement, including service levels and pricing, subject to any applicable adjustments communicated herein.",
+    "clauses": [
+      {
+        "clauseType": "Auto-Renewal",
+        "text": "The agreement will automatically renew for another 12-month term unless either party provides written notice 60 days prior to expiration."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "Renewal Term",
+        "value": "12 months"
+      },
+      {
+        "name": "Service Tier",
+        "value": "Enterprise"
+      }
+    ]
+  },
+  {
+    "id": "agr-0035",
+    "envelopeId": "env-3a2629b32904",
+    "accountId": "acct-adatum",
+    "accountName": "Adatum Corp",
+    "title": "Office Lease Agreement - Downtown Chicago",
+    "type": "Lease",
+    "status": "voided",
+    "createdDate": "2024-08-01",
+    "lastUpdated": "2024-08-15",
+    "expirationDate": "2027-07-31",
+    "folderId": "folder-trash",
+    "folderType": "Trash",
+    "sender": "facilities@adatuminc.com",
+    "recipients": [
+      "leasing@fabrikamrealty.com"
+    ],
+    "tags": [
+      "lease",
+      "office",
+      "real estate"
+    ],
+    "content": "This lease agreement covers the rental terms for office space located in downtown Chicago. It specifies rent amounts, maintenance responsibilities, and usage restrictions. The agreement was voided due to changes in company location plans.",
+    "clauses": [
+      {
+        "clauseType": "Termination",
+        "text": "The lease can be terminated by the tenant with 90 days written notice, subject to penalty fees."
+      },
+      {
+        "clauseType": "Governing Law",
+        "text": "This lease shall be governed by Illinois state law."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "Monthly Rent",
+        "value": "$12,000"
+      },
+      {
+        "name": "Lease Term",
+        "value": "36 months"
+      }
+    ]
+  },
+  {
+    "id": "agr-0036",
+    "envelopeId": "env-fd25df8b8699",
+    "accountId": "acct-fabrikam",
+    "accountName": "Fabrikam Inc",
+    "title": "Vendor Agreement for IT Support Services",
+    "type": "Vendor",
+    "status": "declined",
+    "createdDate": "2025-10-05",
+    "lastUpdated": "2025-10-12",
+    "expirationDate": "2026-10-05",
+    "folderId": "folder-inbox",
+    "folderType": "Inbox",
+    "sender": "procurement@fabrikamsoftware.com",
+    "recipients": [
+      "sales@northwindit.com"
+    ],
+    "tags": [
+      "vendor",
+      "it-support",
+      "sla"
+    ],
+    "content": "This agreement outlines the terms for providing ongoing IT support services to Fabrikam. It includes response times, escalation procedures, and pricing schedules. The vendor declined the agreement due to pricing disagreements.",
+    "clauses": [
+      {
+        "clauseType": "Price Escalation",
+        "text": "Annual price adjustments may not exceed 5% based on inflation indices agreed upon by both parties."
+      },
+      {
+        "clauseType": "Service Level",
+        "text": "Support requests must be acknowledged within 1 hour and resolved within 24 hours for critical issues."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "Support Hours",
+        "value": "24/7"
+      },
+      {
+        "name": "Response Time SLA",
+        "value": "1 hour"
+      }
+    ]
+  },
+  {
+    "id": "agr-0037",
+    "envelopeId": "env-f45f7767d33c",
+    "accountId": "acct-contoso",
+    "accountName": "Contoso Ltd",
+    "title": "Employment Agreement \u2013 Marketing Director",
+    "type": "Employment",
+    "status": "completed",
+    "createdDate": "2024-11-15",
+    "lastUpdated": "2024-11-20",
+    "expirationDate": "2026-11-14",
+    "folderId": "folder-completed",
+    "folderType": "Completed",
+    "sender": "hr@contosocorp.com",
+    "recipients": [
+      "candidate@jobmail.com"
+    ],
+    "tags": [
+      "employment",
+      "marketing",
+      "director"
+    ],
+    "content": "This employment agreement sets forth the terms of employment for the Marketing Director position, including salary, benefits, job responsibilities, and termination conditions. Both parties agree to a probation period of six months.",
+    "clauses": [
+      {
+        "clauseType": "Termination",
+        "text": "Employment may be terminated by either party with 30 days written notice, except in cases of cause."
+      },
+      {
+        "clauseType": "Confidentiality",
+        "text": "The employee agrees to maintain confidentiality regarding all proprietary information."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "Annual Salary",
+        "value": "$120,000"
+      },
+      {
+        "name": "Probation Period",
+        "value": "6 months"
+      }
+    ]
+  },
+  {
+    "id": "agr-0038",
+    "envelopeId": "env-208f04fa7c65",
+    "accountId": "acct-northwind",
+    "accountName": "Northwind Traders",
+    "title": "Amendment to Consulting Services Agreement",
+    "type": "Amendment",
+    "status": "sent",
+    "createdDate": "2026-06-10",
+    "lastUpdated": "2026-06-12",
+    "expirationDate": "2027-06-10",
+    "folderId": "folder-sent",
+    "folderType": "Sent",
+    "sender": "contracts@northwindcloud.com",
+    "recipients": [
+      "legal@adatuminc.com"
+    ],
+    "tags": [
+      "amendment",
+      "consulting",
+      "extension"
+    ],
+    "content": "This amendment modifies the original consulting services agreement to extend the term by six months and adjust the hourly rates for senior consultants. All other terms remain unchanged.",
+    "clauses": [
+      {
+        "clauseType": "Price Escalation",
+        "text": "Consulting rates are increased by 8% effective from the amendment date."
+      },
+      {
+        "clauseType": "Auto-Renewal",
+        "text": "The agreement will not auto-renew after the extended term unless mutually agreed in writing."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "Extension Period",
+        "value": "6 months"
+      },
+      {
+        "name": "Rate Increase",
+        "value": "8%"
+      }
+    ]
+  },
+  {
+    "id": "agr-0039",
+    "envelopeId": "env-e001373a5b78",
+    "accountId": "acct-contoso",
+    "accountName": "Contoso Ltd",
+    "title": "Confidentiality Agreement for Partnership Exploration",
+    "type": "NDA",
+    "status": "completed",
+    "createdDate": "2024-03-12",
+    "lastUpdated": "2024-03-15",
+    "expirationDate": "2025-03-12",
+    "folderId": "folder-completed",
+    "folderType": "Completed",
+    "sender": "legal@contoso.com",
+    "recipients": [
+      "partner1@fabrikam.com"
+    ],
+    "tags": [
+      "nda",
+      "confidentiality",
+      "partnership"
+    ],
+    "content": "This Non-Disclosure Agreement establishes the terms under which both parties will share confidential information for the purpose of evaluating a potential strategic partnership. The agreement restricts the use of such information exclusively to evaluation activities and requires protection against unauthorized disclosure or use beyond the agreed scope.",
+    "clauses": [
+      {
+        "clauseType": "Confidentiality",
+        "text": "Both parties agree to maintain strict confidentiality regarding all shared proprietary information."
+      },
+      {
+        "clauseType": "Termination",
+        "text": "The agreement automatically terminates one year from the effective date unless extended by mutual consent."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "Region",
+        "value": "North America"
+      },
+      {
+        "name": "Contract Value",
+        "value": "N/A"
+      }
+    ]
+  },
+  {
+    "id": "agr-0040",
+    "envelopeId": "env-75fc1b8700fe",
+    "accountId": "acct-fabrikam",
+    "accountName": "Fabrikam Inc",
+    "title": "Software Development Statement of Work - Mobile App",
+    "type": "SOW",
+    "status": "delivered",
+    "createdDate": "2024-08-05",
+    "lastUpdated": "2024-08-18",
+    "expirationDate": "2025-08-05",
+    "folderId": "folder-inbox",
+    "folderType": "Inbox",
+    "sender": "pm@fabrikam.com",
+    "recipients": [
+      "client.contact@adatum.com",
+      "legal@adatum.com"
+    ],
+    "tags": [
+      "software",
+      "development",
+      "mobile"
+    ],
+    "content": "This Statement of Work outlines deliverables, timelines, and milestones for the development of a cross-platform mobile application. It includes detailed specifications, testing requirements, and acceptance criteria agreed upon by Fabrikam and Adatum to ensure project success within the allocated budget and schedule.",
+    "clauses": [
+      {
+        "clauseType": "Service Level",
+        "text": "Fabrikam guarantees 99.5% uptime for any hosted services during the warranty period."
+      },
+      {
+        "clauseType": "Limitation of Liability",
+        "text": "Liability is limited to the total fees paid under this SOW for any direct damages."
+      },
+      {
+        "clauseType": "Termination",
+        "text": "Either party may terminate the agreement with 30 days written notice in case of material breach."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "Project Phase",
+        "value": "Development"
+      },
+      {
+        "name": "Category",
+        "value": "Software"
+      }
+    ]
+  },
+  {
+    "id": "agr-0041",
+    "envelopeId": "env-1e5d31ccdd36",
+    "accountId": "acct-adatum",
+    "accountName": "Adatum Corp",
+    "title": "Annual Data Privacy Addendum for Cloud Services",
+    "type": "DPA",
+    "status": "sent",
+    "createdDate": "2025-02-20",
+    "lastUpdated": "2025-02-20",
+    "expirationDate": "2026-02-20",
+    "folderId": "folder-sent",
+    "folderType": "Sent",
+    "sender": "dpo@adatum.com",
+    "recipients": [
+      "compliance@northwind.com"
+    ],
+    "tags": [
+      "privacy",
+      "compliance",
+      "data"
+    ],
+    "content": "This Data Privacy Addendum supplements the existing service contract by defining the obligations of both parties to protect personal data in compliance with applicable data protection laws. It specifies data processing instructions, breach notification timelines, and audit rights to ensure regulatory adherence.",
+    "clauses": [
+      {
+        "clauseType": "Data Protection",
+        "text": "Both parties commit to implementing appropriate technical and organizational measures to safeguard personal data."
+      },
+      {
+        "clauseType": "Governing Law",
+        "text": "This addendum shall be governed by the laws of the State of Washington."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "Region",
+        "value": "US-West"
+      },
+      {
+        "name": "Compliance Standard",
+        "value": "GDPR"
+      }
+    ]
+  },
+  {
+    "id": "agr-0042",
+    "envelopeId": "env-0b596bf5f987",
+    "accountId": "acct-northwind",
+    "accountName": "Northwind Traders",
+    "title": "Cloud Infrastructure Lease Agreement - Data Center Rack",
+    "type": "Lease",
+    "status": "declined",
+    "createdDate": "2024-11-01",
+    "lastUpdated": "2024-11-10",
+    "expirationDate": "2025-11-01",
+    "folderId": "folder-trash",
+    "folderType": "Trash",
+    "sender": "leasing@northwind.com",
+    "recipients": [
+      "facilities@contoso.com"
+    ],
+    "tags": [
+      "lease",
+      "data center",
+      "rack space"
+    ],
+    "content": "This lease agreement specifies terms for renting data center rack space including access rights, security obligations, and maintenance responsibilities. The lessee is expected to comply with all operational policies and notify lessor immediately of any equipment changes or incidents.",
+    "clauses": [
+      {
+        "clauseType": "Termination",
+        "text": "The lessor may terminate the lease with 60 days notice in case of breach or facility closure."
+      },
+      {
+        "clauseType": "Indemnification",
+        "text": "Lessee agrees to indemnify the lessor against any losses arising from improper use of leased space."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "Location",
+        "value": "Seattle Data Center"
+      },
+      {
+        "name": "Rack Units",
+        "value": "42U"
+      }
+    ]
+  },
+  {
+    "id": "agr-0043",
+    "envelopeId": "env-d4478ce3421d",
+    "accountId": "acct-fabrikam",
+    "accountName": "Fabrikam Inc",
+    "title": "Vendor Agreement for Managed IT Services",
+    "type": "Vendor",
+    "status": "completed",
+    "createdDate": "2024-06-15",
+    "lastUpdated": "2024-07-01",
+    "expirationDate": "2025-06-15",
+    "folderId": "folder-completed",
+    "folderType": "Completed",
+    "sender": "vendor.management@fabrikam.com",
+    "recipients": [
+      "vendor.contact@adatum.com"
+    ],
+    "tags": [
+      "vendor",
+      "it",
+      "support"
+    ],
+    "content": "This Vendor Agreement outlines terms for delivery of managed IT services including support hours, response times, and escalation procedures. The vendor commits to providing qualified personnel and maintaining service quality as specified in the attached service level agreement.",
+    "clauses": [
+      {
+        "clauseType": "Service Level",
+        "text": "Vendor agrees to respond to high severity incidents within 2 hours and resolve within 24 hours."
+      },
+      {
+        "clauseType": "Price Escalation",
+        "text": "Annual price adjustments shall not exceed 5% unless mutually agreed in writing."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "Service Type",
+        "value": "IT Support"
+      },
+      {
+        "name": "Contract Term",
+        "value": "12 months"
+      }
+    ]
+  },
+  {
+    "id": "agr-0044",
+    "envelopeId": "env-36e015426b29",
+    "accountId": "acct-contoso",
+    "accountName": "Contoso Ltd",
+    "title": "Employment Contract \u2013 Software Engineer Level 2",
+    "type": "Employment",
+    "status": "sent",
+    "createdDate": "2025-01-10",
+    "lastUpdated": "2025-01-12",
+    "expirationDate": "2025-12-31",
+    "folderId": "folder-sent",
+    "folderType": "Sent",
+    "sender": "hr@contoso.com",
+    "recipients": [
+      "candidate.software@fabrikam.com"
+    ],
+    "tags": [
+      "employment",
+      "software",
+      "hr"
+    ],
+    "content": "This employment contract defines the terms and conditions for a Level 2 Software Engineer including salary, benefits, probation period, and intellectual property rights. The employee agrees to adhere to company policies and confidentiality obligations throughout employment and thereafter.",
+    "clauses": [
+      {
+        "clauseType": "Confidentiality",
+        "text": "Employee shall maintain confidentiality of all proprietary information during and after employment."
+      },
+      {
+        "clauseType": "Termination",
+        "text": "Employment may be terminated by either party with 30 days' prior written notice."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "Position",
+        "value": "Software Engineer"
+      },
+      {
+        "name": "Probation Period",
+        "value": "3 months"
+      }
+    ]
+  },
+  {
+    "id": "agr-0045",
+    "envelopeId": "env-26adc82b8214",
+    "accountId": "acct-adatum",
+    "accountName": "Adatum Corp",
+    "title": "Order Form for Enterprise Cloud Storage Expansion",
+    "type": "OrderForm",
+    "status": "completed",
+    "createdDate": "2024-12-01",
+    "lastUpdated": "2024-12-05",
+    "expirationDate": "2025-01-01",
+    "folderId": "folder-completed",
+    "folderType": "Completed",
+    "sender": "sales@adatum.com",
+    "recipients": [
+      "procurement@northwind.com"
+    ],
+    "tags": [
+      "order",
+      "cloud",
+      "storage"
+    ],
+    "content": "This order form authorizes the purchase of additional 100TB cloud storage capacity under existing terms. It specifies pricing, billing schedules, and delivery timelines consistent with the master agreement. The expanded capacity is intended to support increased data archival and backup needs.",
+    "clauses": [
+      {
+        "clauseType": "Auto-Renewal",
+        "text": "The order will automatically renew annually unless cancelled 60 days prior to expiration."
+      },
+      {
+        "clauseType": "Price Escalation",
+        "text": "Storage pricing is fixed for the first year and subject to annual review thereafter."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "Storage Size",
+        "value": "100TB"
+      },
+      {
+        "name": "Billing Frequency",
+        "value": "Monthly"
+      }
+    ]
+  },
+  {
+    "id": "agr-0046",
+    "envelopeId": "env-4df296ec2f1f",
+    "accountId": "acct-northwind",
+    "accountName": "Northwind Traders",
+    "title": "Renewal Notice for Managed Security Services",
+    "type": "RenewalNotice",
+    "status": "completed",
+    "createdDate": "2025-05-01",
+    "lastUpdated": "2025-05-10",
+    "expirationDate": "2025-06-01",
+    "folderId": "folder-completed",
+    "folderType": "Completed",
+    "sender": "account.manager@northwind.com",
+    "recipients": [
+      "security.team@fabrikam.com"
+    ],
+    "tags": [
+      "renewal",
+      "security",
+      "services"
+    ],
+    "content": "This notice confirms the renewal of managed security services for an additional 12-month term at current service levels and pricing. It outlines any changes to the scope of services and payment terms, ensuring uninterrupted security monitoring and incident response capabilities.",
+    "clauses": [
+      {
+        "clauseType": "Auto-Renewal",
+        "text": "The contract will renew automatically unless either party provides written notice 30 days before expiration."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "Renewal Term",
+        "value": "12 months"
+      },
+      {
+        "name": "Service Level",
+        "value": "Premium"
+      }
+    ]
+  },
+  {
+    "id": "agr-0047",
+    "envelopeId": "env-4cba8794ac4d",
+    "accountId": "acct-fabrikam",
+    "accountName": "Fabrikam Inc",
+    "title": "Software Development SOW \u2013 Mobile App Launch",
+    "type": "SOW",
+    "status": "completed",
+    "createdDate": "2024-04-12",
+    "lastUpdated": "2024-05-01",
+    "expirationDate": "2025-04-12",
+    "folderId": "folder-completed",
+    "folderType": "Completed",
+    "sender": "pm@fabrikamtech.com",
+    "recipients": [
+      "clientrep@adatumcorp.com"
+    ],
+    "tags": [
+      "mobile",
+      "development",
+      "software"
+    ],
+    "content": "This Statement of Work outlines the deliverables, timeline, and payment milestones for the development of a cross-platform mobile application tailored to improve customer engagement. The project includes UI/UX design, backend integration, and quality assurance testing with a targeted launch date in Q4 2024. All work will adhere to agreed specifications and reporting requirements.",
+    "clauses": [
+      {
+        "clauseType": "Termination",
+        "text": "Either party may terminate this agreement with 30 days written notice if material breaches are not remedied."
+      },
+      {
+        "clauseType": "Service Level",
+        "text": "Development milestones must be met according to the project timeline unless delays are mutually agreed upon in writing."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "Contract Value",
+        "value": "$120,000"
+      },
+      {
+        "name": "Project Phase",
+        "value": "Development"
+      }
+    ]
+  },
+  {
+    "id": "agr-0048",
+    "envelopeId": "env-6fdf698faca8",
+    "accountId": "acct-northwind",
+    "accountName": "Northwind Traders",
+    "title": "Renewal Notice \u2013 Cloud Storage Services",
+    "type": "RenewalNotice",
+    "status": "sent",
+    "createdDate": "2025-11-15",
+    "lastUpdated": "2025-11-16",
+    "expirationDate": "2026-01-15",
+    "folderId": "folder-sent",
+    "folderType": "Sent",
+    "sender": "subscriptions@northwindcloud.com",
+    "recipients": [
+      "billing@contosoenterprise.com"
+    ],
+    "tags": [
+      "renewal",
+      "cloud",
+      "storage"
+    ],
+    "content": "This Renewal Notice informs the client of the upcoming expiration of their cloud storage services subscription. The renewal term will be for an additional 12 months under the same conditions unless the client submits cancellation notice by the expiration date.",
+    "clauses": [
+      {
+        "clauseType": "Auto-Renewal",
+        "text": "The agreement will automatically renew for successive one-year terms unless terminated by either party at least 30 days prior to expiration."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "Subscription Tier",
+        "value": "Enterprise"
+      },
+      {
+        "name": "Region",
+        "value": "US West"
+      }
+    ]
+  },
+  {
+    "id": "agr-0049",
+    "envelopeId": "env-14fb8090531f",
+    "accountId": "acct-adatum",
+    "accountName": "Adatum Corp",
+    "title": "Data Protection Addendum \u2013 Customer Data Handling",
+    "type": "DPA",
+    "status": "delivered",
+    "createdDate": "2024-09-09",
+    "lastUpdated": "2024-09-10",
+    "expirationDate": "2026-09-09",
+    "folderId": "folder-inbox",
+    "folderType": "Inbox",
+    "sender": "legal@adatum.com",
+    "recipients": [
+      "privacy@fabrikam.com"
+    ],
+    "tags": [
+      "data",
+      "privacy",
+      "compliance"
+    ],
+    "content": "This Data Protection Addendum defines the responsibilities for processing and safeguarding customer data in accordance with applicable data protection laws. It specifies security measures, breach notification obligations, and data subject rights applicable during the term of service.",
+    "clauses": [
+      {
+        "clauseType": "Data Protection",
+        "text": "The vendor agrees to implement appropriate technical and organizational measures to protect personal data against unauthorized access or loss."
+      },
+      {
+        "clauseType": "Confidentiality",
+        "text": "Both parties shall maintain the confidentiality of all personal data and not disclose it to third parties except as required by law."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "Compliance Standard",
+        "value": "GDPR"
+      },
+      {
+        "name": "Data Type",
+        "value": "Personal Identifiable Information"
+      }
+    ]
+  },
+  {
+    "id": "agr-0050",
+    "envelopeId": "env-2733fab4c20b",
+    "accountId": "acct-contoso",
+    "accountName": "Contoso Ltd",
+    "title": "Mutual NDA \u2013 Joint Product Development",
+    "type": "NDA",
+    "status": "completed",
+    "createdDate": "2024-07-21",
+    "lastUpdated": "2024-07-25",
+    "expirationDate": "2026-07-21",
+    "folderId": "folder-completed",
+    "folderType": "Completed",
+    "sender": "legal@contoso.com",
+    "recipients": [
+      "partnership@northwind.com"
+    ],
+    "tags": [
+      "nda",
+      "confidentiality",
+      "partnership"
+    ],
+    "content": "This Mutual Non-Disclosure Agreement establishes the terms under which both parties agree to protect confidential information exchanged during joint product development discussions and collaborative research efforts.",
+    "clauses": [
+      {
+        "clauseType": "Confidentiality",
+        "text": "Each party agrees to restrict disclosure of confidential information to employees and contractors on a need-to-know basis."
+      },
+      {
+        "clauseType": "Limitation of Liability",
+        "text": "Neither party shall be liable for incidental or consequential damages arising from breach of this agreement."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "Duration",
+        "value": "2 years"
+      },
+      {
+        "name": "Jurisdiction",
+        "value": "California"
+      }
+    ]
+  },
+  {
+    "id": "agr-0051",
+    "envelopeId": "env-7f13c039208a",
+    "accountId": "acct-fabrikam",
+    "accountName": "Fabrikam Inc",
+    "title": "Vendor Agreement \u2013 IT Support Services",
+    "type": "Vendor",
+    "status": "declined",
+    "createdDate": "2025-01-15",
+    "lastUpdated": "2025-01-20",
+    "expirationDate": "2026-01-15",
+    "folderId": "folder-trash",
+    "folderType": "Trash",
+    "sender": "purchasing@fabrikamtech.com",
+    "recipients": [
+      "vendor@northwind.com"
+    ],
+    "tags": [
+      "vendor",
+      "support",
+      "it"
+    ],
+    "content": "This Vendor Agreement sets forth terms and conditions under which the vendor will provide IT support services including helpdesk, on-site troubleshooting, and system maintenance. Payment terms and service levels are detailed within to ensure consistent response times.",
+    "clauses": [
+      {
+        "clauseType": "Service Level",
+        "text": "Support requests must be acknowledged within 1 hour and resolved within 8 business hours."
+      },
+      {
+        "clauseType": "Price Escalation",
+        "text": "Annual price adjustments will not exceed 5% unless mutually agreed."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "Support Hours",
+        "value": "9am-6pm EST"
+      },
+      {
+        "name": "Contract Type",
+        "value": "Fixed Term"
+      }
+    ]
+  },
+  {
+    "id": "agr-0052",
+    "envelopeId": "env-9d27ef555386",
+    "accountId": "acct-northwind",
+    "accountName": "Northwind Traders",
+    "title": "Amendment to Lease \u2013 Additional Storage Space",
+    "type": "Amendment",
+    "status": "sent",
+    "createdDate": "2025-03-10",
+    "lastUpdated": "2025-03-15",
+    "expirationDate": "2026-03-10",
+    "folderId": "folder-sent",
+    "folderType": "Sent",
+    "sender": "leasing@northwindrealty.com",
+    "recipients": [
+      "facilities@adatum.com"
+    ],
+    "tags": [
+      "lease",
+      "amendment",
+      "storage"
+    ],
+    "content": "This Amendment modifies the existing lease agreement to include an additional 500 square feet of storage space in the warehouse facility. All other lease terms remain unchanged and the tenant agrees to pay the adjusted rent starting from the effective date.",
+    "clauses": [
+      {
+        "clauseType": "Termination",
+        "text": "This amendment may be terminated in accordance with the original lease's termination provisions."
+      },
+      {
+        "clauseType": "Price Escalation",
+        "text": "Rent for the added storage space will be subject to annual escalations of 3%."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "Additional Space",
+        "value": "500 sqft"
+      },
+      {
+        "name": "Lease Term",
+        "value": "12 months"
+      }
+    ]
+  },
+  {
+    "id": "agr-0053",
+    "envelopeId": "env-3a6c51d38a32",
+    "accountId": "acct-adatum",
+    "accountName": "Adatum Corp",
+    "title": "Employment Contract \u2013 Marketing Manager",
+    "type": "Employment",
+    "status": "completed",
+    "createdDate": "2024-02-01",
+    "lastUpdated": "2024-02-10",
+    "expirationDate": "2025-02-01",
+    "folderId": "folder-completed",
+    "folderType": "Completed",
+    "sender": "hr@adatum.com",
+    "recipients": [
+      "jane.doe@adatum.com"
+    ],
+    "tags": [
+      "employment",
+      "hr",
+      "manager"
+    ],
+    "content": "This Employment Contract outlines the terms of hiring for the position of Marketing Manager. It includes salary details, job responsibilities, benefits, and confidentiality obligations. The contract supports a one-year initial term with renewal options subject to performance.",
+    "clauses": [
+      {
+        "clauseType": "Confidentiality",
+        "text": "The employee agrees to maintain confidentiality of all proprietary information during and after employment."
+      },
+      {
+        "clauseType": "Termination",
+        "text": "Either party may terminate this contract with 30 days written notice."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "Salary",
+        "value": "$85,000"
+      },
+      {
+        "name": "Department",
+        "value": "Marketing"
+      }
+    ]
+  },
+  {
+    "id": "agr-0054",
+    "envelopeId": "env-430710cf64a7",
+    "accountId": "acct-contoso",
+    "accountName": "Contoso Ltd",
+    "title": "Order Form \u2013 Enterprise SaaS License",
+    "type": "OrderForm",
+    "status": "delivered",
+    "createdDate": "2024-06-18",
+    "lastUpdated": "2024-06-19",
+    "expirationDate": "2025-06-18",
+    "folderId": "folder-inbox",
+    "folderType": "Inbox",
+    "sender": "sales@contoso.com",
+    "recipients": [
+      "procurement@fabrikam.com",
+      "finance@fabrikam.com"
+    ],
+    "tags": [
+      "orderform",
+      "saas",
+      "license"
+    ],
+    "content": "This Order Form confirms the purchase of an enterprise SaaS license for the analytics platform with user seats capped at 500. It specifies payment terms, service start date, and renewal conditions. Support and training are included as part of the license fee.",
+    "clauses": [
+      {
+        "clauseType": "Auto-Renewal",
+        "text": "Licenses will automatically renew for successive one-year periods unless cancelled with 60 days notice."
+      },
+      {
+        "clauseType": "Limitation of Liability",
+        "text": "The vendor's maximum liability under this agreement is limited to the total fees paid during the prior 12 months."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "License Type",
+        "value": "Enterprise"
+      },
+      {
+        "name": "User Seats",
+        "value": "500"
+      }
+    ]
+  },
+  {
+    "id": "agr-0055",
+    "envelopeId": "env-f3fa83c97ec7",
+    "accountId": "acct-adatum",
+    "accountName": "Adatum Corp",
+    "title": "Software Integration Services Statement of Work",
+    "type": "SOW",
+    "status": "completed",
+    "createdDate": "2024-11-05",
+    "lastUpdated": "2024-11-18",
+    "expirationDate": "2025-05-05",
+    "folderId": "folder-completed",
+    "folderType": "Completed",
+    "sender": "project.manager@adatumtech.com",
+    "recipients": [
+      "client.success@globexsolutions.com"
+    ],
+    "tags": [
+      "integration",
+      "software",
+      "services"
+    ],
+    "content": "This Statement of Work outlines the scope and deliverables for the software integration services to be provided by Adatum Tech for Globex Solutions. The project includes API development, data synchronization, and user acceptance testing within a six-month timeline. The parties agree on milestone payments tied to deliverable acceptance. Change requests will follow the agreed change management process. Support and maintenance options are available post-deployment with details to be negotiated separately.",
+    "clauses": [
+      {
+        "clauseType": "Service Level",
+        "text": "Adatum Tech commits to a 99.9% uptime for the integrated services during the warranty period."
+      },
+      {
+        "clauseType": "Termination",
+        "text": "Either party may terminate this SOW with 30 days written notice if material breach is not cured."
+      },
+      {
+        "clauseType": "Governing Law",
+        "text": "This agreement shall be governed by the laws of the State of Washington."
+      }
+    ],
+    "customAttributes": [
+      {
+        "name": "Contract Value",
+        "value": "$120,000"
+      },
+      {
+        "name": "Project Region",
+        "value": "North America"
+      }
+    ]
+  }
+]

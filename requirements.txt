@@ -1,0 +1,9 @@
+streamlit>=1.30
+openai>=1.40
+azure-identity>=1.15
+azure-cosmos>=4.7
+python-dotenv>=1.0
+pandas>=2.0
+
+# Optional, only for regenerating docs screenshots (tools/capture_screenshots.py):
+#   pip install playwright && playwright install chromium

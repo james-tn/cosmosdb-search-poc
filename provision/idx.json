@@ -1,0 +1,11 @@
+{
+  "indexingMode": "consistent",
+  "automatic": true,
+  "includedPaths": [{"path": "/*"}],
+  "excludedPaths": [{"path": "/contentVector/*"}, {"path": "/\"_etag\"/?"}],
+  "vectorIndexes": [{"path": "/contentVector", "type": "diskANN"}],
+  "fullTextIndexes": [{"path": "/content"}, {"path": "/title"}],
+  "compositeIndexes": [
+    [{"path": "/accountId", "order": "ascending"}, {"path": "/lastUpdated", "order": "descending"}]
+  ]
+}
