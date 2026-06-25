@@ -27,7 +27,7 @@ and the underlying Cosmos DB capability. Launch with `streamlit run app.py` and 
 > "Full-text relevance and a metadata range filter in a single query — the exact ES feature
 > from the inventory, native in Cosmos DB."
 
-![Search Explorer](img/01-search-explorer.png)
+![Search Explorer](docs/img/01-search-explorer.png)
 
 ---
 
@@ -43,7 +43,7 @@ and the underlying Cosmos DB capability. Launch with `streamlit run app.py` and 
 * (Optional) tick **Compare all three capabilities side by side** to show full-text vs
   vector vs hybrid for the same query.
 
-![Compare](img/02-compare.png)
+![Compare](docs/img/02-compare.png)
 
 ---
 
@@ -83,7 +83,7 @@ and the underlying Cosmos DB capability. Launch with `streamlit run app.py` and 
 > "Facets and aggregations via native `GROUP BY`. Cardinality uses the documented
 > DISTINCT-subquery pattern."
 
-![Analytics](img/03-analytics.png)
+![Analytics](docs/img/03-analytics.png)
 
 ---
 
@@ -99,7 +99,7 @@ and the underlying Cosmos DB capability. Launch with `streamlit run app.py` and 
 > feeds the Azure OpenAI Responses API to produce grounded, cited answers — RAG with no extra
 > data movement."
 
-![Copilot](img/04-agent.png)
+![Copilot](docs/img/04-agent.png)
 
 ---
 
