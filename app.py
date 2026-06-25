@@ -1,4 +1,4 @@
-"""Streamlit UI for the Azure Cosmos DB search POC (Docusign domain).
+"""Streamlit UI for the Azure Cosmos DB search POC (agreements domain).
 
 Run:  streamlit run app.py
 """
@@ -16,7 +16,7 @@ import cosmos_store
 from data_gen import ACCOUNTS, AGREEMENTS, AGENT_SUGGESTIONS, PREDEFINED_QUERIES
 
 st.set_page_config(
-    page_title="Cosmos DB Search · Docusign POC",
+    page_title="Cosmos DB Search · Agreements POC",
     page_icon="🔎",
     layout="wide",
 )
@@ -220,7 +220,7 @@ _init_state()
 
 st.title("🔎 Advanced Search on Azure Cosmos DB for NoSQL")
 st.caption(
-    "Docusign-domain POC · agreements & envelopes · **full-text (BM25)**, "
+    "Agreements POC · agreements & envelopes · **full-text (BM25)**, "
     "**vector (DiskANN)** and **hybrid (RRF)** search running natively on Cosmos DB, "
     "with an Azure OpenAI RAG agent."
 )

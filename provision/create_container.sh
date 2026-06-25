@@ -17,7 +17,7 @@ set -euo pipefail
 
 ACC="${1:-${COSMOS_ACCOUNT:?Set COSMOS_ACCOUNT or pass account name as arg 1}}"
 RG="${2:-${COSMOS_RG:?Set COSMOS_RG or pass resource group as arg 2}}"
-DB="${3:-${COSMOS_DATABASE:-docusign_demo}}"
+DB="${3:-${COSMOS_DATABASE:-contracts_demo}}"
 CONT="${4:-${COSMOS_CONTAINER:-agreements}}"
 DIR="$(cd "$(dirname "$0")" && pwd)"
 

@@ -45,7 +45,7 @@ RESPONSES_API_VERSION = os.getenv("RESPONSES_API_VERSION", "2025-04-01-preview")
 
 # ---- Azure Cosmos DB for NoSQL (search backend) ----
 COSMOS_ENDPOINT = os.getenv("COSMOS_ENDPOINT", "")
-COSMOS_DATABASE = os.getenv("COSMOS_DATABASE", "docusign_demo")
+COSMOS_DATABASE = os.getenv("COSMOS_DATABASE", "contracts_demo")
 COSMOS_CONTAINER = os.getenv("COSMOS_CONTAINER", "agreements")
 COSMOS_KEY = os.getenv("COSMOS_KEY")  # optional; AAD used if unset
 

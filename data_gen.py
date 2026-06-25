@@ -1,4 +1,4 @@
-"""Synthetic but realistic Docusign-domain sample data + predefined demo queries.
+"""Synthetic but realistic agreement-domain sample data + predefined demo queries.
 
 Each "agreement" mirrors how an envelope / agreement document would look in a
 Cosmos DB for NoSQL container, including nested `clauses` and `customAttributes`

@@ -1,4 +1,4 @@
-"""Embed the Docusign-domain agreements and upsert them into Cosmos DB.
+"""Embed the sample agreements and upsert them into Cosmos DB.
 
 Merges the curated agreements (`data_gen.py`) with any LLM-generated agreements
 (`data/generated_agreements.json`, produced by `generate_data.py`), embeds each one

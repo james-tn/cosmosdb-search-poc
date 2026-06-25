@@ -1,7 +1,7 @@
-# Advanced Search on Azure Cosmos DB for NoSQL — Docusign POC
+# Advanced Search on Azure Cosmos DB for NoSQL — Agreements Search POC
 
 An interactive proof-of-concept that runs **native search in Azure Cosmos DB for NoSQL**
-over a Docusign-style corpus of **agreements / envelopes**. It demonstrates the search
+over a contract-management corpus of **agreements / envelopes**. It demonstrates the search
 capabilities a search platform needs *today* **and** the AI-native differentiators
 (vector + hybrid search, RAG) that go beyond a legacy Elasticsearch deployment — all on a
 single operational database, with **no separate search service**.
@@ -112,7 +112,7 @@ python build_index.py                          # merges curated + generated, re-
 | Path | Purpose |
 |---|---|
 | `config.py` | Env-driven settings, AAD auth, Cosmos/OpenAI client factories |
-| `data_gen.py` | Curated Docusign-domain agreements + predefined demo queries |
+| `data_gen.py` | Curated agreement-domain sample data + predefined demo queries |
 | `generate_data.py` | LLM sample-data generator (Azure OpenAI → validated JSON) |
 | `embeddings.py` | Azure OpenAI `text-embedding-3-small` client |
 | `cosmos_store.py` | Query builders: FTS / vector / hybrid / filters / nested + GROUP BY + SQL emitter |
@@ -127,7 +127,7 @@ python build_index.py                          # merges curated + generated, re-
 
 ## How this maps to the Elasticsearch feature inventory
 
-| Docusign / Elasticsearch need | Demonstrated here |
+| Legacy Elasticsearch need | Demonstrated here |
 |---|---|
 | Text + range filters in one query | Scenario 1 (AWS renewal, last 6 months) |
 | Complex boolean filters | Scenario 4 (completed MSAs, account, expiry range) |

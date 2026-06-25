@@ -1,7 +1,7 @@
 """LLM-powered sample-data generator.
 
 Uses an Azure OpenAI chat deployment to synthesize additional, realistic (but entirely
-fictional) Docusign-style agreements that match the schema in `data_gen.py`. The output
+fictional) agreement-management contracts that match the schema in `data_gen.py`. The output
 is written to `data/generated_agreements.json`, which `build_index.py` merges with the
 curated set. Committing that file keeps the corpus reproducible without re-calling the
 model; re-run this script any time you want to refresh or expand it.
@@ -35,7 +35,7 @@ OUT_PATH = os.path.join(os.path.dirname(__file__), "data", "generated_agreements
 
 SYSTEM = (
     "You generate realistic but entirely fictional B2B contract metadata for a search "
-    "demo in the Docusign / agreement-management domain. Output strict JSON only. "
+    "demo in the agreement / contract-management domain. Output strict JSON only. "
     "Do not include real company names, real people, or any real personal data."
 )
 
